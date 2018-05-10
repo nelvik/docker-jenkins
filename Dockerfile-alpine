@@ -1,0 +1,11 @@
+From jenkins/jenkins:2.107.3-alpine
+Label maintainer="nelvik"
+
+# change to root to perform installation
+USER root
+
+RUN apk --no-cache add git-lfs && \
+    git lfs install
+
+# drop back to the regular jenkins user - good practice
+USER jenkins
