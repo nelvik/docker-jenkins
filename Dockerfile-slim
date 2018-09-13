@@ -1,4 +1,4 @@
-From jenkins/jenkins:2.121.3-slim
+From jenkins/jenkins:2.138.1-slim
 Label maintainer="nelvik"
 
 # change to root to perform installation
