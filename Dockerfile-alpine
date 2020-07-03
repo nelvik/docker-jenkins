@@ -1,4 +1,4 @@
-From jenkins/jenkins:2.204.6-alpine
+From jenkins/jenkins:2.222.1-alpine
 Label maintainer="nelvik"
 
 # change to root to perform installation
