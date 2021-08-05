@@ -1,4 +1,4 @@
-From jenkins/jenkins:${NEW_LTS_VERSION}
+From jenkins/jenkins:${NEW_LTS_VERSION}${NEW_LTS_VERSION}
 Label maintainer="nelvik"
 
 # change to root to perform installation
